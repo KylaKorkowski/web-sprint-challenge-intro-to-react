@@ -19,9 +19,7 @@ const App = () => {
         console.log(res.data);
         setCharacters(res.data);
       })
-      .catch(err => console.error(err);
-      )
-
+      .catch(err => console.error(err))
   }, [])
 
   return (
